@@ -1,11 +1,13 @@
-import { CurrentRenderContext, useNavigationState } from '@react-navigation/native';
+import { useNavigationState } from '@react-navigation/native';
 import { useEffect, useState } from 'react';
 import * as LocalAuthentication from 'expo-local-authentication';
+import ToastManager, { Toast } from 'toastify-react-native';
 
-export function useScreenGuard(screenName: string){
+export function useScreenGuard(screenName){
   const navigationState = useNavigationState(state=> state);
 
   const [sessionTime, setSessionTime] = useState(0);
+
 
   async function handleAuthentication() { //funcao para solicitar autenticacao
     const auth = await LocalAuthentication.authenticateAsync({
@@ -14,11 +16,18 @@ export function useScreenGuard(screenName: string){
 
     if(auth.success){// caso for desbloqueado com sucesso, reseta o SessionTime para iniciar novamente a contagem
       setSessionTime(0);
+      
+      Toast.success('Tela desbloqueada')
+      
+
     }else{ // caso tiver sucesso ao desbloquear, a funcao é chamada novamente de forma recursiva, até que o celular seja desbloqueado
       handleAuthentication(); 
     }
     
   }
+
+  
+
 
   useEffect(()=>{
     if(sessionTime< 10){ /* 10s é o tempo definido para renovar a autenticação
