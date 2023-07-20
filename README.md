@@ -4,13 +4,17 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/lsouza32/Autenticacao-biometrica?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/lsouza32/Autenticacao-biometrica?style=for-the-badge)
 
-<div>
+<div align="center" >
   <img align="center" alt="Lucas-JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
   <img align="center" alt="Lucas-ts" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> 
   <img align="center" alt="Lucas-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"> 
   </div>
+  
+###
 
-<img src="./src/assets/image.png" alt="Imagem autenticacao biometrica">
+<div align="center" >
+<img src="./src/assets/image.png" alt="Imagem autenticacao biometrica" height="400">
+</div>
 
 <h1>Autenticação com biometria - Mobile</h1>
 <h3>Implementação da função LocalAuthentication, um módulo do Expo que permite realizar autenticação biométrica (como impressão digital ou reconhecimento facial) em aplicativos React Native de forma simples e segura. Em conjunto, também foi utilizado o Reac Navigation para fazer a navegação em stack e o Toastify para retorar uma mensagem de sucesso.</h3>
@@ -63,9 +67,16 @@ Para usar o Autenticador, siga estas etapas:
 # A Screen B é a tela que simula uma área sensível, então é a tela que exige a autenticação.
 # Ao clicar no botão "IR PARA A TELA B" o aplicativo inicia uma contagem de 10 segundos.
 # Após expirar o tempo de 10 segundos a aplicação irá solicitar a autenticação.
-# Depois efetuar a atutenticação com sucesso, você terá mais 10 segundos antes de ser solicitado a autenticação novamente.
+# Depois efetuar a autenticação com sucesso, você terá mais 10 segundos antes de ser solicitado a autenticação novamente.
 
 ```
 
 ## O projeto Autenticador tem um designer simples, seu dever é apenas mostrar a forma de usar o módulo expo-local-authentication.
 
+<<<<<<< HEAD
+=======
+
+
+https://github.com/lsouza32/Autenticacao-biometrica/assets/131299540/753c7fb7-8045-4537-b612-c255aff18d78
+
+>>>>>>> 1bfbcd2f04611c8003b4a26864b388cc10b90190
