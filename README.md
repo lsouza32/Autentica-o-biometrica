@@ -1,20 +1,26 @@
 # Autenticação Biometrica
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/lsouza32/Autenticacao-biometrica?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/lsouza32/Autenticacao-biometrica?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/lsouza32/Autenticacao-biometrica?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<div>
+  <img align="center" alt="Lucas-JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+  <img align="center" alt="Lucas-ts" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> 
+  <img align="center" alt="Lucas-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"> 
+  </div>
 
-<h1>Autenticação com biometria - Mobile<h1>
-<h3>Implementação da função LocalAuthentication um módulo do Expo que permite realizar autenticação biométrica (como impressão digital ou reconhecimento facial) em aplicativos React Native de forma simples e segura.<h3>
-<h3>Alguns exemplos de uso:
-1. Autenticar o usuário antes de permitir acesso a áreas sensíveis do aplicativo.
-2. Substituir o login convencional por autenticação biométrica para maior comodidade.
-3. Implementar uma camada adicional de segurança ao efetuar pagamentos ou transações sensíveis no aplicativo.
-<h3>
+<img src="imagem.png" alt="Imagem autenticacao biometrica">
+
+<h1>Autenticação com biometria - Mobile</h1>
+<h3>Implementação da função LocalAuthentication, um módulo do Expo que permite realizar autenticação biométrica (como impressão digital ou reconhecimento facial) em aplicativos React Native de forma simples e segura.</h3>
+  
+<h2>Alguns exemplos de uso:</h2>
+  
+* Autenticar o usuário antes de permitir acesso a áreas sensíveis do aplicativo.
+* Substituir o login convencional por autenticação biométrica para maior comodidade.
+* Implementar uma camada adicional de segurança ao efetuar pagamentos ou transações sensíveis no aplicativo.
+
 
 
 ## 💻 Pré-requisitos
@@ -22,17 +28,13 @@
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 * Você instalou a versão mais recente do `NodeJS`
-* Você tem uma máquina `Windows / Mac e Android / IOS`. 
+* Você tem uma máquina `Windows/Mac e Android/IOS`.
+* Você tem a autenticação por biometria ativada em seu smartphone ou emulador.
 
 
 ## 🚀 Instalando
 
 Para instalar o autenticador biometrico, siga estas etapas:
-
-Linux e macOS:
-```
-<comando_de_instalação>
-```
 
 Windows e macOS:
 ```
@@ -40,10 +42,10 @@ Windows e macOS:
 $ git clone https://github.com/lsouza32/Autenticacao-biometrica.git
 
 # Entre no diretório:
-$ cd AUTENTICACAO-BIOMETRICA
+$ cd Autenticacao-biometrica
 
 # Instale as dependencias:
-$ npm start
+$ npm install
 
 # Inicie o projeto:
 $ npx expo start
@@ -52,16 +54,18 @@ $ npx expo start
 
 ```
 
-## ☕ Usando o <Autenticador>
+## ☕ Usando o Autenticador
 
-Para usar o <Autenticador>, siga estas etapas:
+Para usar o Autenticador, siga estas etapas:
 
 ```
 # A tela inicial do aplicativo é a Screen A.
 # A Screen B é a tela que simula uma área sensível, então é a tela que exige a autenticação.
-# Ao clicar no botão "IR PARA A TELA B" o aplicativo inicia uma contagem de 10 segundos. Após expirar o tempo de 10 segundos a aplicação irá solicitar a autenticação. Após efetuar a atutenticação com sucesso, você terá mais 10 segundos antes de ser solicitado a autenticação novamente.
+# Ao clicar no botão "IR PARA A TELA B" o aplicativo inicia uma contagem de 10 segundos.
+# Após expirar o tempo de 10 segundos a aplicação irá solicitar a autenticação.
+# Depois efetuar a atutenticação com sucesso, você terá mais 10 segundos antes de ser solicitado a autenticação novamente.
 
 ```
 
-## O projeto <Autenticador> tem um designer simples, seu dever é apenas monstrar como usar o módulo expo-local-authentication.
+## O projeto Autenticador tem um designer simples, seu dever é apenas mostrar como usar o módulo expo-local-authentication.
 
