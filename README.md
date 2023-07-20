@@ -73,10 +73,6 @@ Para usar o Autenticador, siga estas etapas:
 
 ## O projeto Autenticador tem um designer simples, seu dever é apenas mostrar a forma de usar o módulo expo-local-authentication.
 
-<<<<<<< HEAD
-=======
-
 
 https://github.com/lsouza32/Autenticacao-biometrica/assets/131299540/753c7fb7-8045-4537-b612-c255aff18d78
 
->>>>>>> 1bfbcd2f04611c8003b4a26864b388cc10b90190
