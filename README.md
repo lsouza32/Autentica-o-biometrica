@@ -10,10 +10,10 @@
   <img align="center" alt="Lucas-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"> 
   </div>
 
-<img src="imagem.png" alt="Imagem autenticacao biometrica">
+<img src="./src/assets/image.png" alt="Imagem autenticacao biometrica">
 
 <h1>Autenticação com biometria - Mobile</h1>
-<h3>Implementação da função LocalAuthentication, um módulo do Expo que permite realizar autenticação biométrica (como impressão digital ou reconhecimento facial) em aplicativos React Native de forma simples e segura.</h3>
+<h3>Implementação da função LocalAuthentication, um módulo do Expo que permite realizar autenticação biométrica (como impressão digital ou reconhecimento facial) em aplicativos React Native de forma simples e segura. Em conjunto, também foi utilizado o Reac Navigation para fazer a navegação em stack e o Toastify para retorar uma mensagem de sucesso.</h3>
   
 <h2>Alguns exemplos de uso:</h2>
   
@@ -27,7 +27,7 @@
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você instalou a versão mais recente do `NodeJS`
+* Você instalou a versão mais recente do `Node.JS`
 * Você tem uma máquina `Windows/Mac e Android/IOS`.
 * Você tem a autenticação por biometria ativada em seu smartphone ou emulador.
 
@@ -67,5 +67,6 @@ Para usar o Autenticador, siga estas etapas:
 
 ```
 
-## O projeto Autenticador tem um designer simples, seu dever é apenas mostrar como usar o módulo expo-local-authentication.
+## O projeto Autenticador tem um designer simples, seu dever é apenas mostrar a forma de usar o módulo expo-local-authentication.
 
+<video src="./src/assets/video-exemplo.mp4" controls title="Title"></video>

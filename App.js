@@ -1,11 +1,11 @@
 import { Routes } from './src/routes';
-import { ToastContainer } from 'toastify-react-native';
+import Container, { Toast } from 'toastify-react-native';
 
 export default function App() {
   return (
     <>
       <Routes/>
-      <ToastContainer />
+      <Container position="top" />
     </>
   );
 }
