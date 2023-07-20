@@ -17,7 +17,7 @@
 </div>
 
 <h1>Autenticação com biometria - Mobile</h1>
-<h3>Implementação da função LocalAuthentication, um módulo do Expo que permite realizar autenticação biométrica (como impressão digital ou reconhecimento facial) em aplicativos React Native de forma simples e segura. Em conjunto, também foi utilizado o Reac Navigation para fazer a navegação em stack e o Toastify para retorar uma mensagem de sucesso.</h3>
+<h3>Implementação da função LocalAuthentication, um módulo do Expo que permite realizar autenticação biométrica (como impressão digital ou reconhecimento facial) em aplicativos React Native de forma simples e segura. Em conjunto, também foi utilizado o React Navigation para fazer a navegação em stack e o Toastify para retornar uma mensagem de sucesso.</h3>
   
 <h2>Alguns exemplos de uso:</h2>
   
