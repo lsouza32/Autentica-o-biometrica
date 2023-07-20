@@ -69,4 +69,3 @@ Para usar o Autenticador, siga estas etapas:
 
 ## O projeto Autenticador tem um designer simples, seu dever é apenas mostrar a forma de usar o módulo expo-local-authentication.
 
-<video src="./src/assets/video-exemplo.mp4" controls title="Title"></video>
